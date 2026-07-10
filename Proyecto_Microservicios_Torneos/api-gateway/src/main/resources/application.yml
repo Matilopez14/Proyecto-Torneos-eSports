@@ -1,0 +1,41 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${EUREKA_HOST:localhost}:8761/eureka/
+
+springdoc:
+  swagger-ui:
+    urls:
+      - name: MS-Equipos
+        url: /msequipos/api-docs
+      - name: MS-Estadisticas
+        url: /msestadisticas/api-docs
+      - name: MS-Inscripciones
+        url: /msinscripciones/api-docs
+      - name: MS-Jugadores
+        url: /msjugadores/api-docs
+      - name: MS-Notificaciones
+        url: /msnotificaciones/api-docs
+      - name: MS-Partidas
+        url: /mspartidas/api-docs
+      - name: MS-Premios
+        url: /mspremios/api-docs
+      - name: MS-Rankings
+        url: /msrankings/api-docs
+      - name: MS-Torneos
+        url: /mstorneos/api-docs
+      - name: MS-Transmisiones
+        url: /mstransmisiones/api-docs

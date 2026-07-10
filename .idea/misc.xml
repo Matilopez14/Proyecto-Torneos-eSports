@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Proyecto_Microservicios_Torneos/mstransmisiones/pom.xml" />
+        <option value="$PROJECT_DIR$/Proyecto_Microservicios_Torneos/mstorneos/pom.xml" />
+        <option value="$PROJECT_DIR$/Proyecto_Microservicios_Torneos/msrankings/pom.xml" />
+        <option value="$PROJECT_DIR$/Proyecto_Microservicios_Torneos/mspremios/pom.xml" />
+        <option value="$PROJECT_DIR$/Proyecto_Microservicios_Torneos/mspartidas/pom.xml" />
+        <option value="$PROJECT_DIR$/Proyecto_Microservicios_Torneos/msnotificaciones/pom.xml" />
+        <option value="$PROJECT_DIR$/Proyecto_Microservicios_Torneos/msjugadores/pom.xml" />
+        <option value="$PROJECT_DIR$/Proyecto_Microservicios_Torneos/msinscripciones/pom.xml" />
+        <option value="$PROJECT_DIR$/Proyecto_Microservicios_Torneos/msestadisticas/pom.xml" />
+        <option value="$PROJECT_DIR$/Proyecto_Microservicios_Torneos/msequipos/pom.xml" />
+        <option value="$PROJECT_DIR$/Proyecto_Microservicios_Torneos/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Proyecto_Microservicios_Torneos/api-gateway/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-26" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

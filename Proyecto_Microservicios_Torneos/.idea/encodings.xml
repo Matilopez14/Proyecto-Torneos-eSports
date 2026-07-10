@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/msequipos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msestadisticas/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msinscripciones/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msjugadores/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msnotificaciones/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mspartidas/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mspremios/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msrankings/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mstorneos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mstransmisiones/src/main/java" charset="UTF-8" />
+  </component>
+</project>

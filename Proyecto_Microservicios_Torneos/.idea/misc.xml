@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/mstorneos/pom.xml" />
+        <option value="$PROJECT_DIR$/mspartidas/pom.xml" />
+        <option value="$PROJECT_DIR$/msjugadores/pom.xml" />
+        <option value="$PROJECT_DIR$/msinscripciones/pom.xml" />
+        <option value="$PROJECT_DIR$/mspremios/pom.xml" />
+        <option value="$PROJECT_DIR$/mstransmisiones/pom.xml" />
+        <option value="$PROJECT_DIR$/msrankings/pom.xml" />
+        <option value="$PROJECT_DIR$/msnotificaciones/pom.xml" />
+        <option value="$PROJECT_DIR$/msestadisticas/pom.xml" />
+        <option value="$PROJECT_DIR$/msequipos/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" default="true" project-jdk-name="openjdk-26 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

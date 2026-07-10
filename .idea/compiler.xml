@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="msjugadores" />
+        <module name="api-gateway" />
+        <module name="eureka-server" />
+      </profile>
+      <profile name="Annotation profile for msequipos" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="mspremios" />
+        <module name="msestadisticas" />
+        <module name="msnotificaciones" />
+        <module name="mstransmisiones" />
+        <module name="mspartidas" />
+        <module name="msequipos" />
+        <module name="msrankings" />
+        <module name="msinscripciones" />
+        <module name="mstorneos" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="msequipos" options="-parameters" />
+      <module name="msestadisticas" options="-parameters" />
+      <module name="msinscripciones" options="-parameters" />
+      <module name="msjugadores" options="-parameters" />
+      <module name="msnotificaciones" options="-parameters" />
+      <module name="mspartidas" options="-parameters" />
+      <module name="mspremios" options="-parameters" />
+      <module name="msrankings" options="-parameters" />
+      <module name="mstorneos" options="-parameters" />
+      <module name="mstransmisiones" options="-parameters" />
+    </option>
+  </component>
+</project>

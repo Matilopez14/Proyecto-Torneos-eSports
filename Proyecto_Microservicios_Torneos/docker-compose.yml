@@ -1,0 +1,143 @@
+version: '3.8'
+
+services:
+  mysql-db:
+    image: mysql:8.0
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    networks:
+      - tournament-net
+
+  eureka-server:
+    build: ./eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - tournament-net
+
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "8080:8080"
+    environment:
+      - EUREKA_HOST=eureka-server
+    depends_on:
+      - eureka-server
+    networks:
+      - tournament-net
+
+  msequipos:
+    build: ./msequipos
+    environment:
+      - DB_HOST=mysql-db
+      - EUREKA_HOST=eureka-server
+    depends_on:
+      - mysql-db
+      - eureka-server
+    networks:
+      - tournament-net
+
+  msestadisticas:
+    build: ./msestadisticas
+    environment:
+      - DB_HOST=mysql-db
+      - EUREKA_HOST=eureka-server
+    depends_on:
+      - mysql-db
+      - eureka-server
+    networks:
+      - tournament-net
+
+  msinscripciones:
+    build: ./msinscripciones
+    environment:
+      - DB_HOST=mysql-db
+      - EUREKA_HOST=eureka-server
+    depends_on:
+      - mysql-db
+      - eureka-server
+    networks:
+      - tournament-net
+
+  msjugadores:
+    build: ./msjugadores
+    environment:
+      - DB_HOST=mysql-db
+      - EUREKA_HOST=eureka-server
+    depends_on:
+      - mysql-db
+      - eureka-server
+    networks:
+      - tournament-net
+
+  msnotificaciones:
+    build: ./msnotificaciones
+    environment:
+      - DB_HOST=mysql-db
+      - EUREKA_HOST=eureka-server
+    depends_on:
+      - mysql-db
+      - eureka-server
+    networks:
+      - tournament-net
+
+  mspartidas:
+    build: ./mspartidas
+    environment:
+      - DB_HOST=mysql-db
+      - EUREKA_HOST=eureka-server
+    depends_on:
+      - mysql-db
+      - eureka-server
+    networks:
+      - tournament-net
+
+  mspremios:
+    build: ./mspremios
+    environment:
+      - DB_HOST=mysql-db
+      - EUREKA_HOST=eureka-server
+    depends_on:
+      - mysql-db
+      - eureka-server
+    networks:
+      - tournament-net
+
+  msrankings:
+    build: ./msrankings
+    environment:
+      - DB_HOST=mysql-db
+      - EUREKA_HOST=eureka-server
+    depends_on:
+      - mysql-db
+      - eureka-server
+    networks:
+      - tournament-net
+
+  mstorneos:
+    build: ./mstorneos
+    environment:
+      - DB_HOST=mysql-db
+      - EUREKA_HOST=eureka-server
+    depends_on:
+      - mysql-db
+      - eureka-server
+    networks:
+      - tournament-net
+
+  mstransmisiones:
+    build: ./mstransmisiones
+    environment:
+      - DB_HOST=mysql-db
+      - EUREKA_HOST=eureka-server
+    depends_on:
+      - mysql-db
+      - eureka-server
+    networks:
+      - tournament-net
+
+networks:
+  tournament-net:
+    driver: bridge

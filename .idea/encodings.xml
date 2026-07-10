@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Proyecto_Microservicios_Torneos/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Proyecto_Microservicios_Torneos/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Proyecto_Microservicios_Torneos/msequipos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Proyecto_Microservicios_Torneos/msestadisticas/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Proyecto_Microservicios_Torneos/msinscripciones/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Proyecto_Microservicios_Torneos/msjugadores/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Proyecto_Microservicios_Torneos/msnotificaciones/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Proyecto_Microservicios_Torneos/mspartidas/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Proyecto_Microservicios_Torneos/mspremios/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Proyecto_Microservicios_Torneos/msrankings/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Proyecto_Microservicios_Torneos/mstorneos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Proyecto_Microservicios_Torneos/mstransmisiones/src/main/java" charset="UTF-8" />
+  </component>
+</project>
